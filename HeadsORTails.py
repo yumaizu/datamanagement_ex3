@@ -9,6 +9,9 @@ class Coin:
         return random.choice(Coin.sides)
 
 if __name__ == '__main__':
+    name = input("Who are you?\n")
+    print("Hello, {}!".format(name))
+
     num_rounds = 3
     num_heads = 0
     num_tails = 0
