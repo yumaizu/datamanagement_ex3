@@ -21,3 +21,4 @@ if __name__ == '__main__':
             num_tails += 1
         print("Round {}: {}".format(i+1, flip))
     print("Heads: {}, Tails: {}".format(num_heads, num_tails))
+    print("You won!" if num_heads > num_tails else "You lost!")
